@@ -1,0 +1,1 @@
+INSERT INTO public.vendors(vendor_id, "name", contact, phone, email, address) VALUES(nextval('public.vendors_vendor_id_seq'::regclass), :name, :contact, :phone, :email, :address);

@@ -1,0 +1,1 @@
+SELECT * FROM public.vendors where address like :address
